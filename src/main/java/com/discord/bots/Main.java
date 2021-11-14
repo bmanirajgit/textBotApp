@@ -2,6 +2,7 @@ package com.discord.bots;
 
 //import host.heroku.bot.commands.*;
 import com.discord.bots.commands.Ping;
+import com.discord.bots.commands.React;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
 
@@ -18,6 +19,8 @@ public class Main {
 
         //class listeners
         Bot.addListener(new Ping());
+        Bot.addListener(new React());
+
         /*
         Bot.addListener(new Help());
         Bot.addListener(new Info());
