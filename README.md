@@ -1,0 +1,2 @@
+# textBotApp
+Javacord Test Bot
