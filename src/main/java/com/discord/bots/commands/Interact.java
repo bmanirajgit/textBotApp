@@ -10,7 +10,7 @@ public class Interact implements MessageCreateListener {
     public void onMessageCreate(MessageCreateEvent event) {
 
         if(event.getMessageContent().equalsIgnoreCase(Main.Prefix + "hey")){
-            event.getChannel().sendMessage("yo!");
+            event.getChannel().sendMessage("fuck you!");
         }
     }
 }
