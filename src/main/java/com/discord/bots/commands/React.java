@@ -7,7 +7,7 @@ import com.discord.bots.Main;
 public class React implements MessageCreateListener{
     @Override
     public void onMessageCreate(MessageCreateEvent message) {
-        if(message.getMessageContent().equalsIgnoreCase(Main.Prefix + "Ping")){
+        if(message.getMessageContent().equalsIgnoreCase(Main.Prefix + "React")){
             message.getChannel().sendMessage("Pong!");
         }
     }
