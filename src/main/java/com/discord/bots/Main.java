@@ -1,6 +1,6 @@
 package com.discord.bots;
 
-//import host.heroku.bot.commands.*;
+//import host.heroku.bot.commands .*;
 import com.discord.bots.commands.Ping;
 import com.discord.bots.commands.React;
 import com.discord.bots.commands.Interact;
