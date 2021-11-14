@@ -21,7 +21,7 @@ public class Main {
         //class listeners
         Bot.addListener(new Ping());
         Bot.addListener(new React());
-        Bot.addListener(new Interact()());
+        Bot.addListener(new Interact());
 
         /*
         Bot.addListener(new Help());
