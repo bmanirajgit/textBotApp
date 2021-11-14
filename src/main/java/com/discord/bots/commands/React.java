@@ -8,7 +8,7 @@ public class React implements MessageCreateListener{
     @Override
     public void onMessageCreate(MessageCreateEvent reaction) {
         if(reaction.getMessageContent().equalsIgnoreCase(Main.Prefix + "react")){
-           
+
             reaction.getChannel().sendMessage("Pong!");
         }
     }
